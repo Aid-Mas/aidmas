@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AidMas</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <a href="https://www.aidmas.com/" id="logo">
+            <img src="logo.png" alt="AidMas's Logo" />
+        </a>
+        <div class="hamburger" id="hamburger">☰</div>
+        <div class="close-icon" id="closeIcon">✕</div>
+        
+        <ul>
+            
+            <li><a href="/about" class="nav-link" data-scroll="about">ABOUT</a></li>
+            <li><a href="/Services" class="nav-link" data-scroll="Services">SERVICES</a></li>
+            <li><a href="/Testimonial" class="nav-link" data-scroll="Testimonial">TESTIMONIAL</a></li>
+            <li><a href="/blog" class="nav-link" data-scroll="blog">JOURNAL</a></li>
+            <li><a href="/contact" class="nav-link" data-scroll="contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="main-name">
+          <span class="welcome">Welcome to</span>
+          <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>
+        </h1>
+        <p class="university">Your Trusted Partner in Secure Data Solutions</p>
+        <div class="buttons">
+<!--           <button class="btn download" onclick="sendMail()">💡 Let's Collaborate</button> -->
+          <a href="https://outlook.office.com/bookwithme/user/016f6aae7dbe42759c3ab12fa8b0d028@aidmas.com/meetingtype/P9GAsvqggkKSE-YAIrxeDw2?bookingcode=a265ae73-a854-40f3-b3cf-fe71c0041bcc&anonymous&ep=mlink" class="btn download">
+            📅 Schedule a Meeting
+          </a>
+          <!-- <button onclick="sendMail()">Let's Collaborate</button> -->
+<!--           <button class="btn video">📞 Contact us today</button> -->
+        </div>
+      </div>
+    </section>
+    
+    <section class="about", id="about">
+    <div class="title">Who We Are</div>
+      <h1 class="sub-title">Where Data Meets Precision, Protection, and Purpose.</h1>
+      <div class="about-content">
+        <p>In today’s fast-paced digital world, data is power – and <span class="highlight-name">Ai</span><span class="alt-name">dMas</span> helps you wield it with precision, confidentiality, and trust. With over six years of experience and a portfolio of 500+ successful projects for 30+ valued clients.
+
+          At the core of our services lies a dedication to accuracy, confidentiality, and on-time delivery. Whether you're a startup safeguarding sensitive customer data or an enterprise managing complex datasets, <span class="highlight-name">Ai</span><span class="alt-name">dMas</span> provides end-to-end support tailored to your unique needs.</p>
+
+        <br></br>
+        <p>
+          At <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>, we believe that <em>data is more than just information</em> — it’s the foundation of trust, growth, and innovation.
+          We help businesses navigate the complexities of secure data handling with <strong>clarity, integrity, and confidence</strong>.
+        </p>
+
+        <div class="features">
+          <h3>Our Core Values</h3>
+          <ul>
+            <li><strong>🌟 Integrity:</strong> We treat your data as if it were our own.</li>
+            <li><strong>✨ Excellence:</strong> Precision and perfection in every detail.</li>
+            <li><strong>🔒 Confidentiality:</strong> Built-in trust and airtight protection.</li>
+            <li><strong>🤝 Collaboration:</strong> Working as an extension of your team.</li>
+          </ul>
+        </div>
+
+        <div class="why-aidmas">
+          <h3>Why <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>?</h3>
+          <p>
+            In today’s digital ecosystem, <strong>data is everything</strong>. Whether you're responding to a breach or enhancing your infrastructure,
+            <span class="highlight-name">Ai</span><span class="alt-name">dMas</span> turns challenges into smart, secure solutions.
+          </p>
+        </div>
+      </div>
+  </section>
+
+
+    <!-- Services Section -->
+    <section id = 'Services' class="services">
+    <div class="title">Services</div>
+      <h1 class="sub-title">End-to-end solutions in data, automation & AI.</h1>
+      <!-- <h2 class="services-title">Services</h2>
+      <p class="intro">What services you can expect from us.</p> -->
+      <div class="tiles-container">
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h3>Training & Pruning</h3>
+          <p>AidMas equips you to act faster, train smarter, and automate what matters, all built for high-stakes legal ops.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Data Extraction</h3>
+          <p>Programmatic extraction of large datasets using Python, Excel, and SQL.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Incident Response</h3>
+          <p>Expert support for post-breach analysis, review, and notification workflows.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Automation Tools</h3>
+          <p>Custom tools for sensitive data extraction and data transformation pipelines.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Script Development</h3>
+          <p>Building scripts to automate repetitive tasks, improve speed, and ensure accuracy.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Dashboarding</h3>
+          <p>Creating BI dashboards using Power BI & Sisense for actionable data insights.</p>
+        </div>
+<!--         <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3>Data Privacy Audits</h3>
+          <p>GDPR & HIPAA audits for secure and compliant data handling and workflows.</p>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id = 'Testimonial' class="testimonial-section">
+      <div class="title">Testimonial</div>
+      <h1 class="sub-title">Real words from real people — because results speak louder than buzzwords.</h1>
+<!--       <div class="avatar-circle">
+        <img src="client4.png" alt="avatar" class="avatar top-left" />
+        <img src="client1.png" alt="avatar" class="avatar bottom-left" />
+        <img src="client2.png" alt="avatar" class="avatar top-right" />
+        <img src="client4.png" alt="avatar" class="avatar bottom-right" />
+        <img src="client1.png" alt="avatar" class="avatar bottom-center1" />
+        <img src="client3.png" alt="avatar" class="avatar bottom-center" />
+      </div> -->
+      <div class="testimonial-carousel">
+        <div class="testimonial-card active">
+<!--           <div class="testimonial-image-wrapper">
+            <img src="client4.png" alt="Client 1" class="testimonial-image" />
+            <div class="quote-icon">❝</div>
+          </div> -->
+          <p class="testimonial-text">
+            When we had a major data incident, Aidmas was on it within minutes. Their integration into our workflow made the response feel like a well-rehearsed drill, not a crisis.
+          </p>
+          <hr />
+          <h4 class="client-name">Chloe Randall</h4>
+          <p class="client-profession">Director of Legal Operations, Satori Legal Advisors</p>
+        </div>
+        <div class="testimonial-card">
+<!--           <div class="testimonial-image-wrapper">
+            <img src="client1.png" alt="Client 2" class="testimonial-image" />
+            <div class="quote-icon">❝</div>
+          </div> -->
+          <p class="testimonial-text">
+            They transformed our team’s approach to incident response. Their role-specific training didn’t just check a compliance box—it built real confidence and capability under pressure. It felt like they truly understood our world.
+          </p>
+          <hr />
+          <h4 class="client-name">Jordan Li</h4>
+          <p class="client-profession">Partner – Risk & Compliance, Everhart & Rowe LLP</p>
+        </div>
+        <div class="testimonial-card">
+<!--           <div class="testimonial-image-wrapper">
+            <img src="client3.png" alt="Client 3" class="testimonial-image" />
+            <div class="quote-icon">❝</div>
+          </div> -->
+          <p class="testimonial-text">
+            The automation tools they deployed cut our document review and notification prep time by over 60%. It was like flipping a switch, from chaos to control.
+          </p>
+          <hr />
+          <h4 class="client-name">Elena Martínez</h4>
+          <p class="client-profession">Senior Legal Technologist, Vertex Litigation Services</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            Finally, a partner who speaks both ‘legal’ and ‘tech’. Aidmas delivered seamless solutions that felt like they were built for us, not just sold to us. Their understanding of legal ops is unmatched.
+          </p>
+          <hr />
+          <h4 class="client-name">Martin Kwan</h4>
+          <p class="client-profession">General Counsel, Nexbridge Counsel</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            Aidmas isn’t just another vendor—they’re a force multiplier. From training to breach response to automating our most tedious workflows, they’ve helped us scale smarter without burning out our team.
+          </p>
+          <hr />
+          <h4 class="client-name">Sophia Nguyen</h4>
+          <p class="client-profession">Head of Operations, Alture Security & Legal Ops</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            In a field where discretion and speed are everything, they delivers both. They’re the kind of partner you can trust with your most sensitive operations.
+          </p>
+          <hr />
+          <h4 class="client-name">Jason Trent</h4>
+          <p class="client-profession">Director of Incident Response, Crescent Data Legal Group</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            When we were stretched thin during a major case, Aidmas parachuted in skilled support that plugged in immediately. No learning curve, no hand-holding, just impact.          </p>
+          <hr />
+          <h4 class="client-name">Rina Desai</h4>
+          <p class="client-profession">Litigation Support Lead, Lindenhall Risk Advisors</p>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+        <span class="dot" onclick="goToSlide(3)"></span>
+        <span class="dot" onclick="goToSlide(4)"></span>
+        <span class="dot" onclick="goToSlide(5)"></span>
+        <span class="dot" onclick="goToSlide(6)"></span>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+      <div class="title">Journal</div>
+      <h1 class="sub-title">Ideas, experiments & stories from the data frontier.</h1>
+      <div class="blog-container">
+        <div class="blog-wrapper">
+          <div class="main-blog-area">
+            <div class="blog-slider" id="blog-slider">
+              <div class="blog-post active">
+                <img src="proj_4.jpg" alt="Blog 1" class="blog-image">
+                <div class="blog-info">
+                  <h3 class="blog-title">Understanding Cyber Data Mining</h3>
+                  <p class="blog-meta">by AidMas | Posted on April 6, 2025</p>
+                  <p class="blog-summary">A comprehensive guide to how cyber data mining works and its role in breach notification and incident response.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </div>
+              <div class="blog-post">
+                <img src="proj_5.jpg" alt="Blog 2" class="blog-image">
+                <div class="blog-info">
+                  <h3 class="blog-title">Automating Breach Notification Lists</h3>
+                  <p class="blog-meta">by AidMas | Posted on April 1, 2025</p>
+                  <p class="blog-summary">See how automation tools can help streamline the process of generating notification lists.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </div>
+              <div class="blog-post">
+                <img src="proj_3.jpg" alt="Blog 3" class="blog-image">
+                <div class="blog-info">
+                  <h3 class="blog-title">Efficient Data Clustering in Incident Response</h3>
+                  <p class="blog-meta">by AidMas | Posted on March 28, 2025</p>
+                  <p class="blog-summary">Discover how to group large datasets based on similarity in content using Python and automation tools.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-blog-area">
+            <div class="blog-thumbnails" id="blog-thumbnails">
+              <div class="thumb-post" onclick="goToBlog(0)">
+                <img src="proj_4.jpg" alt="Thumb 1">
+              </div>
+              <div class="thumb-post" onclick="goToBlog(1)">
+                <img src="proj_5.jpg" alt="Thumb 2">
+              </div>
+              <div class="thumb-post" onclick="goToBlog(2)">
+                <img src="proj_3.jpg" alt="Thumb 3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="title-row">
+          <h2 class="section-title">Let's Work Together</h2>
+          <button class="say-hello-button" onclick="startChat()">Say Hello</button>
+        </div>
+        <h1 class="sub-title1">Have a project in mind? Let’s build it together.</h1>
+        
+        <!-- Chat widget -->
+        <div class="chat-widget hidden" id="chatWidget">
+          <div class="chat-header">
+            <img src="logo.ico" alt="Avatar" class="avatar">
+            <div class="agent-info">
+              <span class="agent-name"><span class="highlight-name">Ai</span><span class="alt-name">dMas</span></span>
+              <span class="agent-status">Online</span>
+            </div>
+            <button class="close-chat" onclick="closeChat()">×</button>
+          </div>
+        
+          <div class="chat-body" id="chatBody"></div>
+        
+          <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Type your message..." onkeypress="handleChat(event)">
+          </div>
+        </div>              
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-block">
+              <h4>Our Offices:</h4>
+              <p>New York | Texas | London | Liverpool | Sydney | Melbourne | Mumbai | New Delhi</p>
+            </div>
+            <div class="info-block">
+              <h4>Mail us at:</h4>
+              <p>info@aidmas.com</p>
+            </div>
+            <div class="social-block">
+              <h4>Follow us at:</h4>
+              <div class="social-icons">
+<!--                 <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a> -->
+                <a href="https://www.linkedin.com/company/aidmas/"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <form name="submit-to-google-sheet" id="contactForm">
+            <div class="input-row">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="Email" placeholder="Your Email" required />
+            </div>
+            <div class="input-row">
+              <input type="text" name="Mobile" placeholder="Contact Number" required />
+              <input type="text" name="Location" placeholder="Your Location" required />
+            </div>
+            <div class="input-row">
+            <input type="text" name="Message" placeholder="Message" required />
+            </div>
+            <div class="bottom-left-button">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- <div class="container"> -->
+        <p>&copy; 2025 ~ <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>. All Rights Reserved.</p>
+      <!-- </div> -->
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
